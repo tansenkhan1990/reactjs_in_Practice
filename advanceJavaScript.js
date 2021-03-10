@@ -1,6 +1,5 @@
-[name,age] = ['Tansen',30]
-const myObj= {nameobj:'tansen',ageobj: 30}
-const {nameobj} = myObj
-const{nameobj,ageobj} = myObj
-console.log(name)
-console.log(nameobj)
+let oldArray = [1,2,3];
+let newArray = oldArray.map((num)=>{
+    return num*2
+})
+console.log(newArray)
