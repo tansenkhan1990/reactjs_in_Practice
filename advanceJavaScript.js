@@ -1,6 +1,6 @@
-myFun = (...args) => {
-    console.log(args[0])
-    console.log(args[1])
-    console.log(args[2])
-};
-myFun('Tansen' , 'bondhon',33)
+[name,age] = ['Tansen',30]
+const myObj= {nameobj:'tansen',ageobj: 30}
+const {nameobj} = myObj
+const{nameobj,ageobj} = myObj
+console.log(name)
+console.log(nameobj)
