@@ -1,4 +1,6 @@
-//
-let oldArray = [1,2,3]
-let newArray =[...oldArray,4,5,6]
-console.log(newArray)
+myFun = (...args) => {
+    console.log(args[0])
+    console.log(args[1])
+    console.log(args[2])
+};
+myFun('Tansen' , 'bondhon',33)
