@@ -1,3 +1,1 @@
-// Arrow function
-let myFunction = name => name
-console.log(myFunction('Tansen'))
+// import and export and all other document for advanced javascript
