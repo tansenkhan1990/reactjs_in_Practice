@@ -1,6 +1,6 @@
 // Arrow function
-let myFunction = (name,age) => {
+let myFunction = name => {
     console.log('this is name: ' +name)
-    console.log('this is age: ' +age)
+    //console.log('this is age: ' +age)
 };
-myFunction('Bondhon',26)
+myFunction('Bondhon')
