@@ -1,5 +1,6 @@
 // Arrow function
-let myFunction = () => {
-    return 'My first arrow function'
+let myFunction = (name,age) => {
+    console.log('this is name: ' +name)
+    console.log('this is age: ' +age)
 };
-console.log(myFunction())
+myFunction('Bondhon',26)
