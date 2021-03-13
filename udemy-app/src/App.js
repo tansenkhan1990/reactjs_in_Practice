@@ -10,7 +10,7 @@ class App extends Component {
         <h1>
         Hi it's my first app
         </h1>
-        <NewPerson name ="Tansen" age = "30" />
+        <NewPerson name ="Tansen" age = "30">My hobbie is playing cricket </NewPerson>
         <NewPerson name = "bondhon" age = "26" />
       </div>
     );
