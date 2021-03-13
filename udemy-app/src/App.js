@@ -9,6 +9,7 @@ class App extends Component {
       <div className="App">
         <h1>
         Hi it's my first app
+       <p> my age is {Math.random() * 30}</p>
         </h1>
         <NewPerson></NewPerson>
         <NewPerson />
