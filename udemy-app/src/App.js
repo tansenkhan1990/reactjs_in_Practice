@@ -12,7 +12,17 @@ class App extends Component {
     ]
   }
   switchNameHandles = () => {
-    console.log('this is handler function')
+    //console.log('this is handler function')
+    //console.log(this.state.Persons[0].name = 'Tansen Khan') don't do this 
+    this.setState(
+      {
+        Persons : [
+          { name : 'Md Tansen Khan' , age : 60 },
+          {  name : 'Bondhon', age : 26 },
+          {  name : 'Borson', age :7}
+        ]
+      }
+    )
   }
   render() {
    return (
