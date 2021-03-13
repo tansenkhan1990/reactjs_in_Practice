@@ -12,7 +12,7 @@ class App extends Component {
       // </div>
     // );
   // }
-  return React.createElement('div',null,React.createElement('h1',null,'this is for nested elements'));
+  return React.createElement('div',null,React.createElement('h1',{className:"App"},'this is for nested elements'));
   }
 }
 
