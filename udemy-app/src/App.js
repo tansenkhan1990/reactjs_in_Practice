@@ -52,10 +52,15 @@ class App extends Component {
     let persons = null;
 
     if ( this.state.showPersons ) {
-     {this.state.persons.map( person =>{
-      < Person name = { person.name } age = { person.age } /> 
-     } )}
+     persons = (
+      <div>
+      {this.state.persons.map( person => {
+        return <Person name={person.name} age={person.age} />
+      })}
+      </div>
+     )
     }
+  
 
     return (
       <div className="App">
@@ -66,7 +71,7 @@ class App extends Component {
           onClick={this.togglePersonsHandler}>Toggle Persons</button>
         {persons}
       </div>
-    );
+     );
     // return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Does this work now?'));
   }
 }
